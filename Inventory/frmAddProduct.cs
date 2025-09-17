@@ -24,7 +24,8 @@ namespace Inventory
                 "Beverages", "Bread/Bakery", "Canned/Jarred Goods", "Dairy", "Frozne Goods", "Meat", "Personal Care", "Other"
             };
 
-            foreach (string item in ListOfProductCategory) {
+            foreach (string item in ListOfProductCategory)
+            {
                 cbCategory.Items.Add(item);
             }
         }

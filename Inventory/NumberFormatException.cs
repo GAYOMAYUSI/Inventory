@@ -9,7 +9,7 @@ namespace Inventory
     internal class NumberFormatException : Exception
     {
 
-        public NumberFormatException    (string str) : base(str)
+        public NumberFormatException(string str) : base(str)
         {
         }
 
